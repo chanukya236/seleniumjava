@@ -7,7 +7,7 @@ public class FirstProgram {
 	
 			
 			String name = "Gopi";
-			int age = 30;
+			int age = 28;
 			char gender = 'M';
 			System.out.println("Hi "+name+", My age is "+age+" and my Gender is "+gender);
 			
