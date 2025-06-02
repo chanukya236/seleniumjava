@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-20T11:53:53 IST" name="Default suite" finished-at="2025-05-20T11:54:11 IST" duration-ms="18117">
+  <suite started-at="2025-06-02T11:08:12 IST" name="Default suite" finished-at="2025-06-02T11:08:38 IST" duration-ms="26301">
     <groups>
     </groups>
-    <test started-at="2025-05-20T11:53:53 IST" name="Default test" finished-at="2025-05-20T11:54:11 IST" duration-ms="18117">
-      <class name="isdispalyenableselected.IsDisplayEnableSelected">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:isdispalyenableselected.IsDisplayEnableSelected@62ddbd7e]" started-at="2025-05-20T11:53:53 IST" name="beforeTest" finished-at="2025-05-20T11:53:57 IST" duration-ms="4066" status="PASS">
+    <test started-at="2025-06-02T11:08:12 IST" name="Default test" finished-at="2025-06-02T11:08:38 IST" duration-ms="26301">
+      <class name="iframe.Demogit">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:iframe.Demogit@4116aac9]" started-at="2025-06-02T11:08:12 IST" name="beforeTest" finished-at="2025-06-02T11:08:33 IST" duration-ms="20612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="IsDisplayed()[pri:0, instance:isdispalyenableselected.IsDisplayEnableSelected@62ddbd7e]" started-at="2025-05-20T11:53:57 IST" name="IsDisplayed" finished-at="2025-05-20T11:54:06 IST" duration-ms="8410" status="PASS">
+        <test-method signature="f()[pri:0, instance:iframe.Demogit@4116aac9]" started-at="2025-06-02T11:08:33 IST" name="f" finished-at="2025-06-02T11:08:38 IST" duration-ms="5477" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- IsDisplayed -->
-        <test-method signature="IsEnable()[pri:0, instance:isdispalyenableselected.IsDisplayEnableSelected@62ddbd7e]" started-at="2025-05-20T11:54:06 IST" name="IsEnable" finished-at="2025-05-20T11:54:08 IST" duration-ms="2720" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IsEnable -->
-        <test-method signature="IsSelect()[pri:0, instance:isdispalyenableselected.IsDisplayEnableSelected@62ddbd7e]" started-at="2025-05-20T11:54:08 IST" name="IsSelect" finished-at="2025-05-20T11:54:11 IST" duration-ms="2796" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IsSelect -->
-      </class> <!-- isdispalyenableselected.IsDisplayEnableSelected -->
+        </test-method> <!-- f -->
+      </class> <!-- iframe.Demogit -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
