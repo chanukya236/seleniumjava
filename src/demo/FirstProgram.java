@@ -6,7 +6,7 @@ public class FirstProgram {
 		public static void main(String[] args) {
 	
 			
-			String name = "Gopi";
+			String name = "Ramesh";
 			int age = 28;
 			char gender = 'M';
 			System.out.println("Hi "+name+", My age is "+age+" and my Gender is "+gender);
