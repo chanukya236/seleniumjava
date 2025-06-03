@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tabtitleapplicationurlapplicationtext.Ttaut">
+      <class name="tabfunction.TabFunction1">
         <methods>
-          <include name="microSofttext"/>
+          <include name="tabfunc"/>
           <include name="beforeTest"/>
         </methods>
-      </class> <!-- tabtitleapplicationurlapplicationtext.Ttaut -->
+      </class> <!-- tabfunction.TabFunction1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
