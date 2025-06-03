@@ -1,6 +1,7 @@
 package log4j;
 
 import org.testng.annotations.Test;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeTest;
 
 public class Log4J {

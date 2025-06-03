@@ -22,7 +22,7 @@ public class Iframeprocesstestng {
 	  
 	  driver.switchTo().frame("iframeResult");
 	  driver. findElement(By.xpath("//*[@onclick=\"myFunction()\"]")).click();
-	  Thread.sleep(2000);
+	  Thread.sleep(4000);
 	  
 	  driver.switchTo().alert().accept();
 
