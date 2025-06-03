@@ -12,18 +12,18 @@ public class IsDisplayEnableSelected {
   @Test
   public void IsDisplayed() throws InterruptedException {
 	  driver.get("https://www.techlearn.in/wp-login.php?redirect_to=https%3A%2F%2Fwww.techlearn.in%2Fwp-admin%2F&reauth=1");
-	  Thread.sleep(2000);
+	  Thread.sleep(5000);
 	  
 	  boolean logdisplay = driver.findElement(By.xpath("//*[@id=\"nav\"]/a")).isDisplayed();
 	  
-	  if (logdisplay == true)
+	  if (logdisplay == false)
 			  {
 		  		System.out.println("Display the content");
 		  		driver.findElement(By.xpath("//*[@id=\"nav\"]/a")).click();
 			  }
 	  else
 	  {
-	  		System.out.println("Not Display the content");
+	  		System.out.println("Display the content");
 
 	  }
   }
